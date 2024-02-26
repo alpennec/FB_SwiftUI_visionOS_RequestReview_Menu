@@ -1,0 +1,22 @@
+//
+//  Created by Axel Le Pennec on 26/02/2024.
+//  Copyright © 2024 Axel Le Pennec. All rights reserved.
+// 
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
