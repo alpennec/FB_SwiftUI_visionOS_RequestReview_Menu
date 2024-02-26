@@ -35,7 +35,7 @@
 		77EBEFAB2B8C940200E9F75D = {
 			isa = PBXGroup;
 			children = (
-				77EBEFB62B8C940200E9F75D /* FB_SwiftUI_RequestReview_Menu */,
+				77EBEFB62B8C940200E9F75D /* FB_SwiftUI_visionOS_RequestReview_Menu */,
 				77EBEFB52B8C940200E9F75D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77EBEFB62B8C940200E9F75D /* FB_SwiftUI_RequestReview_Menu */ = {
+		77EBEFB62B8C940200E9F75D /* FB_SwiftUI_visionOS_RequestReview_Menu */ = {
 			isa = PBXGroup;
 			children = (
 				77EBEFB72B8C940200E9F75D /* FB_SwiftUI_RequestReview_MenuApp.swift */,
@@ -56,7 +56,7 @@
 				77EBEFBB2B8C940300E9F75D /* Assets.xcassets */,
 				77EBEFBD2B8C940300E9F75D /* Preview Content */,
 			);
-			path = FB_SwiftUI_RequestReview_Menu;
+			path = FB_SwiftUI_visionOS_RequestReview_Menu;
 			sourceTree = "<group>";
 		};
 		77EBEFBD2B8C940300E9F75D /* Preview Content */ = {
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 77EBEFAF2B8C940200E9F75D /* Build configuration list for PBXProject "FB_SwiftUI_RequestReview_Menu" */;
+			buildConfigurationList = 77EBEFAF2B8C940200E9F75D /* Build configuration list for PBXProject "FB_SwiftUI_visionOS_RequestReview_Menu" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FB_SwiftUI_RequestReview_Menu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FB_SwiftUI_visionOS_RequestReview_Menu/Preview Content\"";
 				DEVELOPMENT_TEAM = 755842EYAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -287,9 +287,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alpennec.FB-SwiftUI-RequestReview-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -300,7 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FB_SwiftUI_RequestReview_Menu/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FB_SwiftUI_visionOS_RequestReview_Menu/Preview Content\"";
 				DEVELOPMENT_TEAM = 755842EYAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,16 +319,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alpennec.FB-SwiftUI-RequestReview-Menu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77EBEFAF2B8C940200E9F75D /* Build configuration list for PBXProject "FB_SwiftUI_RequestReview_Menu" */ = {
+		77EBEFAF2B8C940200E9F75D /* Build configuration list for PBXProject "FB_SwiftUI_visionOS_RequestReview_Menu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77EBEFC02B8C940300E9F75D /* Debug */,
